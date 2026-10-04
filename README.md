@@ -266,10 +266,6 @@ Os resultados ficam em `target/surefire-reports/` e `target/failsafe-reports/`. 
 | `src/test` | Testes unitários e de integração |
 | `docs` | Coleção Postman e orientações de entrega |
 
-## Publicação e entrega
-
-O enunciado pede os códigos em um repositório GitHub e o envio do link na tarefa do Microsoft Teams, até **04/10/2026 às 23:59**. O roteiro em `docs/ENTREGA.md` explica como publicar pelo site, sem plugins, e como conferir o resultado.
-
 ## Referências técnicas
 
 - [Requisitos do Spring Boot 3.5](https://docs.spring.io/spring-boot/3.5/system-requirements.html)
