@@ -1,8 +1,14 @@
-# Lista de Tarefas - Backend
+# Atvd avaliativa Hudson - Backend
+
+**Aluno:** Hudson Ribeiro Barbara Junior
+
+**RA:** 1091392413010
 
 API REST para gerenciar tarefas do dia a dia, implementada em Java Spring Boot com PostgreSQL. O projeto contém o código-fonte, os scripts SQL, os serviços, os testes unitários e os testes de integração.
 
-Não há login, cadastro ou entidade de usuário. Professor eu utilizei o vscode como ferramenta mas o codigo é completamente compativel com eclipse.
+Não há login, cadastro ou entidade de usuário.
+
+OBS: Professor eu codei e rodei o projeto utilizando o PostgreSQL(BANCO) e Vscode(FERRAMENTA) mas tbm é compativel com eclipse e netBeans.
 
 ## O que está incluído
 
@@ -17,6 +23,26 @@ Não há login, cadastro ou entidade de usuário. Professor eu utilizei o vscode
 | Consultar tarefas | Endpoints GET com busca por ID, paginação e filtro de status |
 | Testes unitários | `TarefaServiceTest`, com JUnit 5 e Mockito |
 | Testes de integração | `TarefaApiIT`, com aplicação Spring completa e PostgreSQL real |
+
+## Compatibilidade com Eclipse e Apache NetBeans
+
+O projeto foi executado e testado pelo Maven no terminal do Visual Studio Code. Ele utiliza Java 17, Spring Boot e a estrutura padrão do Maven, permitindo a importação no Eclipse e no Apache NetBeans sem alterar o código. Utilize uma versão da IDE com suporte a Java 17 e Maven.
+
+| IDE | Como importar |
+| --- | --- |
+| Eclipse | Acesse `File → Import → Maven → Existing Maven Projects`. O suporte a Maven é fornecido pelo m2e. |
+| Apache NetBeans | Acesse `File → Open Project` e selecione a pasta do projeto Maven. |
+
+Nas duas IDEs:
+
+1. Selecione a pasta `lista-tarefas-backend`, que contém o arquivo `pom.xml`.
+2. Configure o JDK 17 para o projeto e aguarde a resolução das dependências do Maven.
+3. Configure as variáveis de ambiente `DB_URL`, `DB_USERNAME` e `DB_PASSWORD` na execução da aplicação, usando a conexão do seu PostgreSQL.
+4. Execute a classe `br.com.todo.TodoApplication` como uma aplicação Java ou execute o objetivo Maven `spring-boot:run`.
+
+As variáveis definidas em um terminal do VS Code precisam ser configuradas também no ambiente de execução da outra IDE. Para testes de integração, configure as variáveis `DB_TEST_URL`, `DB_TEST_USERNAME` e `DB_TEST_PASSWORD`, conforme a seção de testes automatizados.
+
+A compilação e os testes foram verificados pelo Maven e pelo GitHub Actions. A importação e a execução diretamente no Eclipse e no Apache NetBeans ainda não foram testadas.
 
 ## Execução rápida com Docker
 
