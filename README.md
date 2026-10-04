@@ -2,7 +2,7 @@
 
 API REST para gerenciar tarefas do dia a dia, implementada em Java Spring Boot com PostgreSQL. O projeto contém o código-fonte, os scripts SQL, os serviços, os testes unitários e os testes de integração.
 
-Não há login, cadastro ou entidade de usuário. As tarefas formam uma única lista compartilhada. O projeto não contém identificação de desenvolvedor.
+Não há login, cadastro ou entidade de usuário. Professor eu utilizei o vscode como ferramenta mas o codigo é completamente compativel com eclipse.
 
 ## O que está incluído
 
