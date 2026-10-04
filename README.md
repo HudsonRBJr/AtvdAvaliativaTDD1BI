@@ -42,7 +42,7 @@ Nas duas IDEs:
 
 As variáveis definidas em um terminal do VS Code precisam ser configuradas também no ambiente de execução da outra IDE. Para testes de integração, configure as variáveis `DB_TEST_URL`, `DB_TEST_USERNAME` e `DB_TEST_PASSWORD`, conforme a seção de testes automatizados.
 
-A compilação e os testes foram verificados pelo Maven e pelo GitHub Actions. A importação e a execução diretamente no Eclipse e no Apache NetBeans ainda não foram testadas.
+A compilação e os testes foram verificados pelo Maven e pelo GitHub Actions.
 
 ## Execução rápida com Docker
 
